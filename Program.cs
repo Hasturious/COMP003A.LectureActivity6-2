@@ -7,7 +7,7 @@
             //Demonstrating method overloading
             ShapeCalculator calculator = new ShapeCalculator();
             Console.WriteLine($"Circle Area: {calculator.CalculateArea(5)}");
-            Console.WriteLine($"Rectangle Area: {calculator.CalculateArea(5, 10, false)}");
+            Console.WriteLine($"Rectangle Area: {calculator.CalculateArea(5, 10)}");
             Console.WriteLine($"Triangle Area: {calculator.CalculateArea(5, 10, true)}");
 
             //Demonstrate class overiding

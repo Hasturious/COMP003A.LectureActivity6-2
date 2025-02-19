@@ -14,7 +14,7 @@ namespace COMP003A.LectureActivity6_2
         //Auto Implement radius property
         public double Radius { get; set; }
         /// <summary>
-        /// 
+        /// Constructor for circle class  
         /// </summary>
         /// <param name="radius"></param>
         public Circle(double radius)
